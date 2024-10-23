@@ -1,0 +1,28 @@
+
+body {
+    background-color: #005b6b;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #ffffff;
+    padding: 10px;
+}
+
+h1, h2, h3 {
+    line-height: 1.2;
+}
+
+a {
+    color: pink
+}
+
+#profilepic {
+    width: 533px;
+    border-radius: 20px;
+    border: 3px solid #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
