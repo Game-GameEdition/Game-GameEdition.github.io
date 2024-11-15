@@ -3,7 +3,20 @@
 
 // Step 2: Override variables
 @import url(https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap);
-$font-family-base: "Manrope", sans-serif;
+$font-family-base: 'Manrope', sans-serif;
+
+$space-cadet: #2e294e;
+$celadon: #a69658;
+$red-cmyk: #5d1c24;
+$school-bus-yellow: #f1d302;
+$baby-powder: #fdfffc;
+
+$primary: $space-cadet;
+$success: $celadon;
+$danger: $red-cmyk;
+$warning: $school-bus-yellow;
+$info: $baby-powder;
+
 
 // Step 3: Import full Bootstrap to apply customizations
 @import "../node_modules/bootstrap/scss/bootstrap";
