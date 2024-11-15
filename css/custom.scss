@@ -1,0 +1,9 @@
+// Step 1: Import functions first to make them available
+@import "../node_modules/bootstrap/scss/functions";
+
+// Step 2: Override variables
+@import url(https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap);
+$font-family-base: "Manrope", sans-serif;
+
+// Step 3: Import full Bootstrap to apply customizations
+@import "../node_modules/bootstrap/scss/bootstrap";
